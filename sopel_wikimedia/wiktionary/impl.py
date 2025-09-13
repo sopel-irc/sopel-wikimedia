@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from typing import Optional
+from typing import Dict, List, Optional
 
 import requests
 from sopel.tools import web
@@ -68,7 +68,7 @@ R_TAG = re.compile(r"<[^>]+>")
 R_UL = re.compile(r"(?ims)<ul>.*?</ul>")
 
 Etymology = Optional[str]
-Definitions = dict[str, list[str]]
+Definitions = Dict[str, List[str]]
 
 
 def text(html: str) -> str:
@@ -97,7 +97,7 @@ def wikt(word: str) -> tuple[Etymology, Definitions]:
 
     mode = None
     etymology = None
-    definitions: dict[str, list[str]] = {}
+    definitions = {}
 
     for line in txt.splitlines():
         is_new_mode = False
