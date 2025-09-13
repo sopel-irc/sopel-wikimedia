@@ -3,7 +3,7 @@ from urllib.parse import quote
 
 import requests
 
-from .. import WIKI_REQUEST_HEADERS
+from sopel_wikimedia import WIKI_REQUEST_HEADERS
 from .parser import WikiParser
 
 LOGGER = logging.getLogger(__name__)

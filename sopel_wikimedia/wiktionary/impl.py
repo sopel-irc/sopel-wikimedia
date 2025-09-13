@@ -6,7 +6,7 @@ from typing import Dict, List, Optional
 import requests
 from sopel.tools import web
 
-from .. import WIKI_REQUEST_HEADERS
+from sopel_wikimedia import WIKI_REQUEST_HEADERS
 
 # From https://en.wiktionary.org/wiki/Wiktionary:Entry_layout#Part_of_speech
 PARTS_OF_SPEECH = [
