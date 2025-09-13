@@ -30,7 +30,7 @@ dynamic = ["readme"]
 license = "EFL-2.0"
 license-files = ["LICENSE.txt"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
     "Operating System :: POSIX :: Linux",
