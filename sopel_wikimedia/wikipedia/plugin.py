@@ -27,11 +27,6 @@ def setup(bot):
 
 
 def configure(config):
-    """
-    | name | example | purpose |
-    | ---- | ------- | ------- |
-    | default\\_lang | en | The default language to find articles from (same as Wikipedia language subdomain) |
-    """
     config.define_section("wikipedia", WikipediaSection)
     config.wikipedia.configure_setting(
         "default_lang", "Enter the default language to find articles from."
