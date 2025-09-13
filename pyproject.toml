@@ -27,13 +27,12 @@ authors = [
 ]
 
 dynamic = ["readme"]
-license = { text="EFL-2.0" }
+license = "EFL-2.0"
+license-files = ["LICENSE.txt"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
-    "License :: Eiffel Forum License (EFL)",
-    "License :: OSI Approved :: Eiffel Forum License",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
