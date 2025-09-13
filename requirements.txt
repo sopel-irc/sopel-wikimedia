@@ -1,0 +1,7 @@
+# requirements for dev
+flake8
+flake8-pyproject
+pylint
+
+# type checking
+mypy
