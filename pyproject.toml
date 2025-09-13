@@ -58,7 +58,6 @@ wiktionary = "sopel_wikimedia.wiktionary.plugin"
 [tool.flake8]
 max-line-length = 120
 
-
 [tool.setuptools]
 platforms = ["Linux x86, x86-64"]
 
