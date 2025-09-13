@@ -1,7 +1,7 @@
 .PHONY: qa quality pylint
 
 quality:
-	isort sopel_wikimedia
+	isort -c sopel_wikimedia
 	flake8 sopel_wikimedia
 	mypy sopel_wikimedia
 
