@@ -15,14 +15,12 @@ keywords = [
 ]
 maintainers = [
   { name="dgw", email="dgw@technobabbl.es" },
-  { name="Florian Strzelecki", email="florian.strzelecki@gmail.com" },
   { name="SnoopJ", email="snoopjedi@gmail.com" },
 ]
 authors = [
   { name="Dimitri Molenaars" },
   { name="Elad Alfassa", email="elad@fedoraproject.org" },
   { name="dgw", email="dgw@technobabbl.es" },
-  { name="Florian Strzelecki", email="florian.strzelecki@gmail.com" },
   { name="SnoopJ", email="snoopjedi@gmail.com" },
 ]
 
