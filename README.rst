@@ -51,5 +51,10 @@ Configure
     Configure wikipedia.py - Sopel Wikipedia Plugin
     Enter the default language to find articles from. [en]
 
-The [bot database](https://sopel.chat/docs/package/db) also supports the
-per-nick (for PMs) and per-channel value `wikipedia_lang`.
+Chanops and bot admins can override the default language on a per-channel basis with
+the ``.wpclang`` command.
+
+Users can also configure a preferred language for Wikipedia lookups using the
+``.wplang`` command.
+
+*At this time, there are no configuration settings for the* ``wiktionary`` *plugin.*
