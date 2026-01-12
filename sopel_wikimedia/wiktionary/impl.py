@@ -95,6 +95,11 @@ def wikt(word: str) -> tuple[Etymology, Definitions]:
     txt = response.text
     txt = R_UL.sub("", txt)
 
+    etymology, definitions = _parse_wiktionary_response(txt)
+
+
+def _parse_wiktionary_response(txt: str) -> tuple[str, dict]:
+    # NOTE: txt here is expected to be an HTML document, but we aren't *parsing* that HTML
     mode = None
     etymology = None
     definitions = {}
